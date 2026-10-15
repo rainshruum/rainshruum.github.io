@@ -1,6 +1,6 @@
 body {
     background: #270d36;
-    color: #ddd;
+    color: #eee;
     font-family:monospace;
     font-size: 62.5%
 }
@@ -20,6 +20,7 @@ body {
 header {
     text-align:center;
     font-size: 1.6rem;
+    padding-bottom: 16px;
 }
 
 main {
@@ -31,4 +32,37 @@ footer {
     color: #888;
     text-align:center;
     font-size: 1.0rem;
+}
+
+nav {
+    font-size: 1.4rem;
+    background-color:#270d36;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float:left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 48px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color:rgb(185, 106, 196);
+}
+
+.spotifyembed {
+    display: flex; 
+    justify-content: center;
 }
